@@ -248,11 +248,23 @@ body{
   }
 
 
-  iframe{
-      width: 800px;
-      height: 500px;
-      margin-bottom: 20px;
+  .share-iframe-container{
+      position: relative;
       
+  }
+
+  iframe{
+  width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+  }
+
+  .overlay{
+    width: 800px;
+    height: 54px;
+    margin-top: -73px;
+    background-color: white;
+    position: absolute;
   }
   
   .lifetime_video{
@@ -266,6 +278,8 @@ body{
       width: 800px;
       height: 500px;
   }
+
+  
 
   .malibu-navigation-manual{
     position: absolute;
